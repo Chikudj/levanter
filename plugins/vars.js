@@ -1,4 +1,4 @@
-const { bot, setVar, getVars, delVar } = require('../lib/index')
+const { bot, setVar, getVars, delVar, sortObject } = require('../lib/index')
 
 bot(
   {
@@ -40,7 +40,7 @@ bot(
   async (message, match) => {
     const [key, ...values] = match.split('=')
     if (!match || values.length === 0) return await message.send(`*Example : setvar key = value*`)
-    const value = values.join('=')
+    const value = values.join('=').trim()
     const keyValue = key.trim().toUpperCase()
     await setVar({ [keyValue]: value }, message.id)
     await message.send(`_new var ${key} added as ${value}_`)
@@ -55,10 +55,11 @@ bot(
   },
   async (message, match) => {
     const vars = await getVars(message.id)
-    let allVars = ''
-    for (const key in vars) {
-      allVars += `${key} = ${vars[key]}\n\n`
-    }
-    return await message.send(allVars.trim())
+    const sortedVars = sortObject(vars)
+    const allVars = Object.entries(sortedVars)
+      .map(([key, value]) => `${key} = ${value}`)
+      .join('\n\n')
+
+    await message.send(allVars)
   }
 )
