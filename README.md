@@ -1,4 +1,4 @@
-# WhatsApp MD User Bot
+# THE BILLION VOICE DJ WHATSAPP BOT 🐛 🐛 
 
 A powerful and feature-rich WhatsApp bot supporting multiple sessions, designed for seamless automation and enhanced user experience.
 
@@ -14,34 +14,25 @@ A powerful and feature-rich WhatsApp bot supporting multiple sessions, designed 
 This bot supports multiple languages for responses. Set your preferred language using the `BOT_LANG` variable in the `config.env` file.
 
 **Available languages:**
-
-- **bn** – Bengali  
+  
 - **en** – English  
-- **es** – Spanish  
-- **hi** – Hindi  
-- **id** – Indonesian  
-- **ur** – Urdu  
-- **tr** – Turkish  
-- **fr** – French  
-- **ru** – Russian  
-- **ar** – Arabic  
+- **ks** – Kiswahili
+- **ka** – kisambaa
+- **kn** – kinyaturu  
+- **km** – kisukuma
+- **kg** – kigogo
+- **ky** – kihaya
+- **ka** – kimasai  
+- **kb** – kibena  
 
-To set the bot language to Spanish, add the following line to your `config.env` file:
+To set the bot language to kisambaa, add the following line to your `config.env` file:
 
 ```env
-BOT_LANG=es
+BOT_LANG=ka
 ```
 ---
 
 ### Deployment Guide
-
-### 1️⃣ Deploy on Koyeb
-
-[Deploy Now](https://levanter-delta.vercel.app/) to set up your bot on Koyeb.
-
-### 2️⃣ Deploy on Render
-
-[Deploy Now](https://levanter-delta.vercel.app/) to set up your bot on Render.
 
 ### 3️⃣ Deploy on a VPS or PC (Ubuntu Example)
 
@@ -130,14 +121,12 @@ bash <(curl -fsSL http://bit.ly/43JqREw)
 
 A special thanks to:
 
-- **[Yusuf Usta](https://github.com/Quiec)** – Creator of [WhatsAsena](https://github.com/yusufusta/WhatsAsena).  
-- **[@adiwajshing](https://github.com/adiwajshing)** – Developer of [Baileys](https://github.com/adiwajshing/Baileys).
-
----
+--GOD (Keep me alive ☺️
+--THE BILLION VOICE EMPIRE (Ma teammate)
+---My Active Clients 💪 💪 
 
 ## 🛠 Need Help?
 
 For more information on setting up environment variables and FAQs, please visit:
 
-- [Bot Environment Variables](https://levanter-delta.vercel.app/)  
-- [Frequently Asked Questions](https://levanter-delta.vercel.app/)
+- wa.me//https://+255675104490
