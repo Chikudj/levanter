@@ -129,4 +129,4 @@ A special thanks to:
 
 For more information on setting up environment variables and FAQs, please visit:
 
-- wa.me//https://+255675104490
+-Check me on WhatsApp ⏭️⏭️ https://wa.me/+255675104490
