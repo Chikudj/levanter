@@ -16,7 +16,7 @@ This bot supports multiple languages for responses. Set your preferred language 
 **Available languages:**
   
 - **en** – English  
-- **ks** – Kiswahili
+- **ks** – Kiswahili (Primary Language)
 - **ka** – kisambaa
 - **kn** – kinyaturu  
 - **km** – kisukuma
@@ -33,8 +33,10 @@ BOT_LANG=ka
 ---
 
 ### Deployment Guide
+## 1. GET YOUR SESSION ID 🆔 here 👇 👇
+   https://levanter-delta.vercel.app/
 
-### 3️⃣ Deploy on a VPS or PC (Ubuntu Example)
+### 2.Deploy on a VPS or PC (Ubuntu Example)
 
 #### **Quick Installation**
 
